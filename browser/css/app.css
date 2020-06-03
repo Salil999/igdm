@@ -104,7 +104,8 @@ button, button:focus {
 
 .chat-list li {
   list-style: none;
-  border-bottom: 1px #EFEFEF solid;
+  border-bottom: 1px #000000 solid;
+  background-color: rgb(122, 122, 122);
   vertical-align: middle;
   cursor: pointer;
   width: 100%;
@@ -129,7 +130,7 @@ button, button:focus {
 }
 
 .chat-list li:hover, .chat-list li.active {
-  background-color: #DFDFDF;
+  background-color: rgb(53, 53, 53);
   background-image: linear-gradient(to left, #FCFCFC, #e9ecef);
 }
 
@@ -194,7 +195,7 @@ button, button:focus {
 
 .chat-title {
   min-height: 0;
-  border-bottom: 1px #EFEFEF solid;
+  background-color: rgb(100, 100, 100);
 }
 
 .chat-subtitle {
@@ -216,8 +217,7 @@ button, button:focus {
 .messages {
   overflow: auto;
   flex: 1 1;
-  background: #efefef;
-  background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background: black;
 }
 
 .messages .cover img {
@@ -299,8 +299,8 @@ button, button:focus {
   float: left;
   padding: 0.5rem 0.75rem;
   max-width: 75%;
-  color: #666;
-  background-color: #FCFCFC;
+  color: lightgray;
+  background-color: rgb(32, 32, 32);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -365,6 +365,7 @@ button, button:focus {
   box-shadow: none;
   font-size: 1rem;
   color: #555;
+  background-color: black;
   padding: 0.75rem;
   width: 100%;
   word-wrap: break-word;
@@ -518,12 +519,13 @@ button, button:focus {
 }
 
 .header {
-  background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-image: linear-gradient(to bottom, #707070, #000000);
   border-bottom: 1px solid #DFDFDF;
 }
 
 .messageBox {
   border-top: 1px solid #DADADA;
+  background-color: black;
   position: relative;
 }
 
